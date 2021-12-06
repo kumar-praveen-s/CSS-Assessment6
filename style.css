@@ -31,6 +31,10 @@ h1{
     top: 50px;
     left: 100px;
 }
+.style-link{
+    text-decoration-line: none;
+    color: white;
+}
 .menu-style{
     position: absolute;
     top: 30px;
@@ -66,10 +70,6 @@ h1{
     align-content: space-around;
     text-align: center;
 }
-.style-link{
-    color: white;
-    text-decoration-line: none;
-}
 .para-style{
     padding: 10px;
 }
@@ -77,23 +77,37 @@ h1{
     width: 200px;
     height: 210px;
     border-radius: 10px;
+    text-decoration-line: none;
+    color: white;
 }
 .box1{
     background: url(pic-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .box2{
     background: url(pic-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .box3{
     background: url(pic-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .box4{
     background: url(pic-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .box:hover{
     transform: translateY(-10px);
 }
 @media screen and (min-width:600px) and (max-width:1000px){
+    .container{
+        left: 150px;
+        top: 150px;
+    }
     .logo-style{
         left: 30px;
         top: 30px;
@@ -108,13 +122,14 @@ h1{
         left: 30px;
     }
     .container-flex{
+        height: 100vh;
         margin-left: 200px;
         margin-top: 400px;
         flex-direction: column;
     }
     .box{
         width: 100%;
-        height: 100px;
+        height: 150px;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -148,13 +163,14 @@ h1{
         left: 30px;
     }
     .container-flex{
+        height: 130vh;
         margin-left: 30px;
         margin-top: 400px;
         flex-direction: column;
     }
     .box{
         width: 100%;
-        height: 100px;
+        height: 150px;
         background-repeat: no-repeat;
         background-size: cover;
     }
